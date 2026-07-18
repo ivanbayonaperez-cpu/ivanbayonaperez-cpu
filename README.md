@@ -69,9 +69,7 @@ Integración de dos fuentes de datos reales (TomTom Traffic Index + OECD) para 1
 
 ## 📈 GitHub Stats
 
-<p align="left">
-  <img src="https://github-readme-stats.vercel.app/api?username=ivanbayonaperez-cpu&show_icons=true&theme=default" />
-</p>
+<img src="https://github-readme-stats.vercel.app/api?username=ivanbayonaperez-cpu&show_icons=true&theme=visual_studio" />
 
 ---
 
