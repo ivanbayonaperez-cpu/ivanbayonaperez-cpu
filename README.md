@@ -27,6 +27,16 @@ Egresado del bootcamp de Data Analytics de **TripleTen**, con práctica aplicada
 
 ## ⚙️ Proyectos Destacados
 
+### 🚀 [RappiPlus: De Datos a Decisiones de Negocio — Análisis End-to-End](enlace-a-tu-repo)
+*Proyecto insignia — ciclo analítico completo: calidad de datos, rentabilidad, funnel, cohortes, test A/B y dashboard, en un solo caso.*
+
+* **Auditoría de calidad de datos:** Sobre 25,100 pedidos, detecté y documenté devoluciones, valores inconsistentes y duplicados con SQL/Python, dejando el dataset validado con banderas de auditoría (no eliminando datos "sospechosos" sin evidencia).
+* **Hallazgo crítico de rentabilidad:** Identifiqué que 10 pedidos (0.04% del dataset) con cantidades no plausibles (10,000–20,000 unidades) distorsionaban el margen reportado del negocio — **11.5% vs. el 30.5% real** una vez excluidos y validados. Recomendé confirmar estos registros con el equipo de operaciones antes de reportarlos como rentabilidad real.
+* **Funnel de conversión (SQL):** Construí el embudo completo sobre 7,796 usuarios únicos usando SQL avanzado (CTEs, funciones de ventana), obteniendo una conversión total del 80% e identificando una anomalía en la etapa `add_to_cart` que documenté como hallazgo a validar con el equipo de producto.
+* **Retención por cohortes:** Medí retención semanal (semana 1 a 3) por cohorte mensual de registro, encontrando estabilidad entre 40-44% sin señales de fuga crítica.
+* **Test A/B con rigor estadístico:** Apliqué una prueba Z de dos proporciones sobre un rediseño de checkout; el resultado no fue estadísticamente significativo (p=0.4161), y lo reporté como tal en vez de forzar una conclusión positiva.
+* **Comunicación ejecutiva:** Consolidé los hallazgos en un dashboard publicado en Power BI Service para la toma de decisiones del equipo de negocio.
+
 ### 🧪 [Validación de Experimento A/B — Optimización de Landing Page (Ecommerce)](enlace-a-tu-repo)
 Evaluación estadística de un experimento A/B sobre 40,000 usuarios para decidir qué versión de página implementar.
 
@@ -56,7 +66,7 @@ Análisis de comportamiento de uso real (llamadas, mensajes) para una empresa de
 ### 🌎 [Movilidad Urbana y Productividad Económica — Ciudades LATAM](enlace-a-tu-repo)
 Integración de dos fuentes de datos reales (TomTom Traffic Index + OECD) para 15 ciudades en 7 países.
 
-* **Integración de datos:** Unifiqué datasets de tráfico y economía urbana por ciudad-año, resolviendo inconsistencies de formato y estandarización entre fuentes.
+* **Integración de datos:** Unifiqué datasets de tráfico y economía urbana por ciudad-año, resolviendo inconsistencias de formato y estandarización entre fuentes.
 * **Hallazgo estratégico:** Prioricé a Bogotá como ciudad de mayor oportunidad de inversión en infraestructura de transporte, al cruzar alta congestión con productividad económica moderada.
 
 ### 🏥 [Automatización de Vigilancia Epidemiológica — Subred Centro Oriente](enlace-a-tu-repo)
@@ -67,9 +77,11 @@ Integración de dos fuentes de datos reales (TomTom Traffic Index + OECD) para 1
 
 ---
 
-## 📈 GitHub Stats
+## 📈 Estadísticas de GitHub
 
-<img src="https://github-readme-stats.vercel.app/api?username=ivanbayonaperez-cpu&show_icons=true&theme=visual_studio" />
+<p align="left">
+  <img src="https://github-readme-stats.vercel.app/api?username=ivanbayonaperez-cpu&show_icons=true&theme=visual_studio" />
+</p>
 
 ---
 
