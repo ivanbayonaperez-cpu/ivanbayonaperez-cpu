@@ -27,7 +27,7 @@ Egresado del bootcamp de Data Analytics de **TripleTen**, con práctica aplicada
 
 ## ⚙️ Proyectos Destacados
 
-### 🚀 [RappiPlus: De Datos a Decisiones de Negocio — Análisis End-to-End]([enlace-a-tu-repo](https://github.com/ivanbayonaperez-cpu/-RappiPlus-De-Datos-a-Decisiones-de-Negocio.git))
+### 🚀 [RappiPlus: De Datos a Decisiones de Negocio — Análisis End-to-End](git@github.com:ivanbayonaperez-cpu/-RappiPlus-De-Datos-a-Decisiones-de-Negocio.git ))
 *Proyecto insignia — ciclo analítico completo: calidad de datos, rentabilidad, funnel, cohortes, test A/B y dashboard, en un solo caso.*
 
 * **Auditoría de calidad de datos:** Sobre 25,100 pedidos, detecté y documenté devoluciones, valores inconsistentes y duplicados con SQL/Python, dejando el dataset validado con banderas de auditoría (no eliminando datos "sospechosos" sin evidencia).
