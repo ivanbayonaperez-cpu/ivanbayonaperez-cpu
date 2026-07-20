@@ -8,11 +8,11 @@ Egresado del bootcamp de Data Analytics de **TripleTen**, con práctica aplicada
 
 ## 🛠️ Arquitectura y Stack Técnico
 
-* **Análisis y Modelado:** SQL (MySQL), Python (Pandas, NumPy, Scikit-learn, Matplotlib, Seaborn)
-* **BI y Visualización:** Power BI (Desktop, Service, DAX avanzado, Power Query), Tableau
-* **Ingeniería de Datos:** Pipelines ETL/ELT, Modelado de Datos & Data Warehousing
-* **Metodologías:** Pruebas de Hipótesis (A/B Testing), Análisis de Cohortes y Funnel, Machine Learning aplicado, Data Storytelling
-* **Herramientas:** Git/GitHub, Jupyter Notebooks, Agile/SCRUM
+- **Análisis y Modelado:** SQL (MySQL), Python (Pandas, NumPy, Scikit-learn, Matplotlib, Seaborn)
+- **BI y Visualización:** Power BI (Desktop, Service, DAX avanzado, Power Query), Tableau
+- **Ingeniería de Datos:** Pipelines ETL/ELT, Modelado de Datos & Data Warehousing
+- **Metodologías:** Pruebas de Hipótesis (A/B Testing), Análisis de Cohortes y Funnel, Machine Learning aplicado, Data Storytelling
+- **Herramientas:** Git/GitHub, Jupyter Notebooks, Agile/SCRUM
 
 <p align="left">
   <img src="https://img.shields.io/badge/-SQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" />
@@ -20,6 +20,7 @@ Egresado del bootcamp de Data Analytics de **TripleTen**, con práctica aplicada
   <img src="https://img.shields.io/badge/-Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" />
   <img src="https://img.shields.io/badge/-Power%20BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black" />
   <img src="https://img.shields.io/badge/-Tableau-E97627?style=for-the-badge&logo=tableau&logoColor=white" />
+  <img src="https://img.shields.io/badge/-DAX-217346?style=for-the-badge&logo=microsoftexcel&logoColor=white" />
   <img src="https://img.shields.io/badge/-Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
 </p>
 
@@ -27,47 +28,47 @@ Egresado del bootcamp de Data Analytics de **TripleTen**, con práctica aplicada
 
 ## ⚙️ Proyectos Destacados
 
-### 🚀 [RappiPlus: De Datos a Decisiones de Negocio — Análisis End-to-End]( https://github.com/ivanbayonaperez-cpu/-RappiPlus-De-Datos-a-Decisiones-de-Negocio ))
+### 🚀 [RappiPlus: De Datos a Decisiones de Negocio — Análisis End-to-End](enlace-a-tu-repo)
 *Proyecto insignia — ciclo analítico completo: calidad de datos, rentabilidad, funnel, cohortes, test A/B y dashboard, en un solo caso.*
 
-* **Auditoría de calidad de datos:** Sobre 25,100 pedidos, detecté y documenté devoluciones, valores inconsistentes y duplicados con SQL/Python, dejando el dataset validado con banderas de auditoría (no eliminando datos "sospechosos" sin evidencia).
-* **Hallazgo crítico de rentabilidad:** Identifiqué que 10 pedidos (0.04% del dataset) con cantidades no plausibles (10,000–20,000 unidades) distorsionaban el margen reportado del negocio — **11.5% vs. el 30.5% real** una vez excluidos y validados. Recomendé confirmar estos registros con el equipo de operaciones antes de reportarlos como rentabilidad real.
-* **Funnel de conversión (SQL):** Construí el embudo completo sobre 7,796 usuarios únicos usando SQL avanzado (CTEs, funciones de ventana), obteniendo una conversión total del 80% e identificando una anomalía en la etapa `add_to_cart` que documenté como hallazgo a validar con el equipo de producto.
-* **Retención por cohortes:** Medí retención semanal (semana 1 a 3) por cohorte mensual de registro, encontrando estabilidad entre 40-44% sin señales de fuga crítica.
-* **Test A/B con rigor estadístico:** Apliqué una prueba Z de dos proporciones sobre un rediseño de checkout; el resultado no fue estadísticamente significativo (p=0.4161), y lo reporté como tal en vez de forzar una conclusión positiva.
-* **Comunicación ejecutiva:** Consolidé los hallazgos en un dashboard publicado en Power BI Service para la toma de decisiones del equipo de negocio.
+- **Auditoría de calidad de datos:** Sobre 25,100 pedidos, detecté y documenté devoluciones, valores inconsistentes y duplicados con SQL/Python, dejando el dataset validado con banderas de auditoría (no eliminando datos "sospechosos" sin evidencia).
+- **Hallazgo crítico de rentabilidad:** Identifiqué que 10 pedidos (0.04% del dataset) con cantidades no plausibles (10,000–20,000 unidades) distorsionaban el margen reportado del negocio — **11.5% vs. el 30.5% real** una vez excluidos y validados. Recomendé confirmar estos registros con el equipo de operaciones antes de reportarlos como rentabilidad real.
+- **Funnel de conversión (SQL):** Construí el embudo completo sobre 7,796 usuarios únicos usando SQL avanzado (CTEs, funciones de ventana), obteniendo una conversión total del 80% e identificando una anomalía en la etapa `add_to_cart` que documenté como hallazgo a validar con el equipo de producto.
+- **Retención por cohortes:** Medí retención semanal (semana 1 a 3) por cohorte mensual de registro, encontrando estabilidad entre 40-44% sin señales de fuga crítica.
+- **Test A/B con rigor estadístico:** Apliqué una prueba Z de dos proporciones sobre un rediseño de checkout; el resultado no fue estadísticamente significativo (p=0.4161), y lo reporté como tal en vez de forzar una conclusión positiva.
+- **Comunicación ejecutiva:** Consolidé los hallazgos en un dashboard publicado en Power BI Service para la toma de decisiones del equipo de negocio.
 
-### 🧪 [Validación de Experimento A/B — Optimización de Landing Page (Ecommerce)](https://github.com/ivanbayonaperez-cpu/Experimento-A-B-Optimizaci-n-de-Landing-Page-Ecommerce-))
+### 🧪 [Validación de Experimento A/B — Optimización de Landing Page (Ecommerce)](enlace-a-tu-repo)
 Evaluación estadística de un experimento A/B sobre 40,000 usuarios para decidir qué versión de página implementar.
 
-* **Diseño estadístico:** Apliqué chi-cuadrado para comparar tasas de conversión y t-test de muestras independientes para comparar gasto promedio, validando significancia (p < 0.001) en ambas métricas antes de recomendar un cambio de producto.
-* **Resultado cuantificado:** La versión ganadora mostró +27% en conversión y +12.5% en valor por conversión, con recomendaciones adicionales de rebalanceo de presupuesto por canal de tráfico.
-* **Comunicación ejecutiva:** Traduje resultados estadísticos (p-values, intervalos) en una recomendación de negocio clara y accionable para stakeholders no técnicos.
+- **Diseño estadístico:** Apliqué chi-cuadrado para comparar tasas de conversión y t-test de muestras independientes para comparar gasto promedio, validando significancia (p < 0.001) en ambas métricas antes de recomendar un cambio de producto.
+- **Resultado cuantificado:** La versión ganadora mostró +27% en conversión y +12.5% en valor por conversión, con recomendaciones adicionales de rebalanceo de presupuesto por canal de tráfico.
+- **Comunicación ejecutiva:** Traduje resultados estadísticos (p-values, intervalos) en una recomendación de negocio clara y accionable para stakeholders no técnicos.
 
-### 📊 [Dashboard de Desempeño Comercial — Andes Retail Group]((https://github.com/ivanbayonaperez-cpu/Andes-Retail-Group-Dashboard-de-Desempe-o-Comercial-2024-2025-))
-Dashboard ejecutivo en Power BI/Tableau sobre 5,000 pedidos (USD 5.53M) en 3 países y 4 categorías de producto.
+### 🏘️ [Estrategia Comercial — Andes Capital Real Estate](enlace-a-tu-repo)
+Dashboard en Power BI con modelo de datos en esquema estrella, DAX avanzado y matriz de cohortes. *Aprobado por revisor externo del bootcamp.*
 
-* **Diseño analítico:** Construí dos vistas complementarias (overview ejecutivo + análisis detallado) siguiendo principios de jerarquía visual y exploración dinámica con filtros.
-* **Insight cuantificado:** Aislé una caída de ingresos del 6.8% concentrada en el segmento Premium, e identifiqué Hogar como única categoría en crecimiento (+3.3%).
-* **Narrativa de negocio:** Estructuré los hallazgos con el modelo SCQA (Situación-Complicación-Pregunta-Respuesta) y redacté un resumen ejecutivo tipo Slack para la toma de decisiones ágil.
+- **Modelado de datos:** Construí un esquema estrella (tabla de hechos + 3 dimensiones, incluyendo una tabla calendario `dim_fecha` generada con `CALENDAR`/`ADDCOLUMNS`), con medidas DAX que modifican contexto de filtro vía `CALCULATE`.
+- **Insight cuantificado:** $6,012.5M en ingresos (+11.14% YoY), con una tasa de recompra del 77.13% y un patrón de churn concentrado en el primer mes (89-94%) — la ventana crítica de retención es inmediata.
+- **Análisis de cohortes:** Matriz de recurrencia de clientes en el tiempo, identificando que las cohortes de Q1 2023 generan 3.24 compras promedio por cliente.
 
-### 🛒 [Embudo de Conversión y Retención — MercadoLibre](https://github.com/ivanbayonaperez-cpu/MercadoLibre-Embudo-de-Conversi-n-y-Retenci-n-por-Cohorte-SQL-)
+### 🛒 [Embudo de Conversión y Retención — MercadoLibre](enlace-a-tu-repo)
 Análisis de producto sobre el journey completo de compra, usando SQL avanzado.
 
-* **Ingeniería de consultas:** Construí el embudo multietapa completo (descubrimiento → conversión) usando CTEs en SQL para calcular tasas de conversión entre cada paso.
-* **Análisis de cohortes:** Medí retención D7/D14/D21/D28 por país, identificando las etapas de mayor fuga de usuarios y su variación geográfica.
+- **Ingeniería de consultas:** Construí el embudo multietapa completo (descubrimiento → conversión) usando CTEs en SQL para calcular tasas de conversión entre cada paso.
+- **Análisis de cohortes:** Medí retención D7/D14/D21/D28 por país, identificando las etapas de mayor fuga de usuarios y su variación geográfica.
 
-### 📱 [Segmentación de Clientes — Telecomunicaciones (ConnectaTel)](https://github.com/ivanbayonaperez-cpu/proyecto-connectatel)
+### 💹 [Rentabilidad de Mercado — Adventure Works](enlace-a-tu-repo)
+Análisis financiero con SQL sobre 6 mercados, separando eficiencia de producto de eficiencia de inversión en marketing.
+
+- **Hallazgo cuantificado:** El margen operativo es uniforme entre mercados (~43%), pero el ROI de marketing varía de 17% a 76% — aislando el problema real: eficiencia de inversión, no de producto.
+- **Análisis de escenario:** Modelé el efecto de un incremento del 50% en gasto de campañas sobre el ROI proyectado por mercado, para soportar la recomendación de reasignación de presupuesto.
+
+### 📱 [Segmentación de Clientes — Telecomunicaciones (ConnectaTel)](enlace-a-tu-repo)
 Análisis de comportamiento de uso real (llamadas, mensajes) para una empresa de telecomunicaciones en LATAM.
 
-* **Detección de valor:** Identifiqué que el segmento de "power users" (15-20% de la base) concentra el 40-50% del consumo total, usando el método IQR para detectar outliers de forma estadísticamente rigurosa.
-* **Recomendación comercial:** Propuse expandir la oferta de 2 a 4 planes y crear alertas de consumo proactivas, con impacto directo en upselling y prevención de fraude.
-
-### 🌎 [Movilidad Urbana y Productividad Económica — Ciudades LATAM](https://github.com/ivanbayonaperez-cpu/Movilidad-Urbana-y-Productividad-Econ-mica-Ciudades-LATAM-2024-)
-Integración de dos fuentes de datos reales (TomTom Traffic Index + OECD) para 15 ciudades en 7 países.
-
-* **Integración de datos:** Unifiqué datasets de tráfico y economía urbana por ciudad-año, resolviendo inconsistencias de formato y estandarización entre fuentes.
-* **Hallazgo estratégico:** Prioricé a Bogotá como ciudad de mayor oportunidad de inversión en infraestructura de transporte, al cruzar alta congestión con productividad económica moderada.
+- **Rigor de limpieza:** Apliqué verificación estadística MAR (Missing At Random) para justificar la conservación de nulos informativos, y detecté valores sentinel (`-999`) que distorsionaban las métricas antes de corregirlos.
+- **Detección de valor:** Identifiqué el segmento de "power users" (15-20% de la base) mediante el método IQR, decidiendo conservar los outliers por justificación de negocio en vez de eliminarlos automáticamente.
 
 ### 🏥 [Automatización de Vigilancia Epidemiológica — Subred Centro Oriente](enlace-a-tu-repo)
 *Proyecto real de mi rol profesional, no un caso de bootcamp.*
@@ -79,9 +80,10 @@ Integración de dos fuentes de datos reales (TomTom Traffic Index + OECD) para 1
 
 ## 📈 Estadísticas de GitHub
 
-<p align="left">
-  <img src="https://github-readme-stats.vercel.app/api?username=ivanbayonaperez-cpu&show_icons=true&theme=visual_studio" />
+<p>
+<img src="https://github-readme-stats.vercel.app/api?username=ivanbayonaperez-cpu&show_icons=true&theme=default" />
 </p>
+
 
 ---
 
