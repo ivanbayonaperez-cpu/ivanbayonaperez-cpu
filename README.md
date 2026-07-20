@@ -28,7 +28,7 @@ Egresado del bootcamp de Data Analytics de **TripleTen**, con práctica aplicada
 
 ## ⚙️ Proyectos Destacados
 
-### 🚀 [RappiPlus: De Datos a Decisiones de Negocio — Análisis End-to-End](enlace-a-tu-repo)
+### 🚀 [RappiPlus: De Datos a Decisiones de Negocio — Análisis End-to-End](https://github.com/ivanbayonaperez-cpu/-RappiPlus-De-Datos-a-Decisiones-de-Negocio)
 *Proyecto insignia — ciclo analítico completo: calidad de datos, rentabilidad, funnel, cohortes, test A/B y dashboard, en un solo caso.*
 
 - **Auditoría de calidad de datos:** Sobre 25,100 pedidos, detecté y documenté devoluciones, valores inconsistentes y duplicados con SQL/Python, dejando el dataset validado con banderas de auditoría (no eliminando datos "sospechosos" sin evidencia).
@@ -38,33 +38,33 @@ Egresado del bootcamp de Data Analytics de **TripleTen**, con práctica aplicada
 - **Test A/B con rigor estadístico:** Apliqué una prueba Z de dos proporciones sobre un rediseño de checkout; el resultado no fue estadísticamente significativo (p=0.4161), y lo reporté como tal en vez de forzar una conclusión positiva.
 - **Comunicación ejecutiva:** Consolidé los hallazgos en un dashboard publicado en Power BI Service para la toma de decisiones del equipo de negocio.
 
-### 🧪 [Validación de Experimento A/B — Optimización de Landing Page (Ecommerce)](enlace-a-tu-repo)
+### 🧪 [Validación de Experimento A/B — Optimización de Landing Page (Ecommerce)](https://github.com/ivanbayonaperez-cpu/Experimento-A-B-Optimizaci-n-de-Landing-Page-Ecommerce-)
 Evaluación estadística de un experimento A/B sobre 40,000 usuarios para decidir qué versión de página implementar.
 
 - **Diseño estadístico:** Apliqué chi-cuadrado para comparar tasas de conversión y t-test de muestras independientes para comparar gasto promedio, validando significancia (p < 0.001) en ambas métricas antes de recomendar un cambio de producto.
 - **Resultado cuantificado:** La versión ganadora mostró +27% en conversión y +12.5% en valor por conversión, con recomendaciones adicionales de rebalanceo de presupuesto por canal de tráfico.
 - **Comunicación ejecutiva:** Traduje resultados estadísticos (p-values, intervalos) en una recomendación de negocio clara y accionable para stakeholders no técnicos.
 
-### 🏘️ [Estrategia Comercial — Andes Capital Real Estate](enlace-a-tu-repo)
+### 🏘️ [Estrategia Comercial — Andes Capital Real Estate](https://github.com/ivanbayonaperez-cpu/Andes-Capital-Real-Estate-Estrategia-Comercial-y-Cohortes-de-Clientes-)
 Dashboard en Power BI con modelo de datos en esquema estrella, DAX avanzado y matriz de cohortes. *Aprobado por revisor externo del bootcamp.*
 
 - **Modelado de datos:** Construí un esquema estrella (tabla de hechos + 3 dimensiones, incluyendo una tabla calendario `dim_fecha` generada con `CALENDAR`/`ADDCOLUMNS`), con medidas DAX que modifican contexto de filtro vía `CALCULATE`.
 - **Insight cuantificado:** $6,012.5M en ingresos (+11.14% YoY), con una tasa de recompra del 77.13% y un patrón de churn concentrado en el primer mes (89-94%) — la ventana crítica de retención es inmediata.
 - **Análisis de cohortes:** Matriz de recurrencia de clientes en el tiempo, identificando que las cohortes de Q1 2023 generan 3.24 compras promedio por cliente.
 
-### 🛒 [Embudo de Conversión y Retención — MercadoLibre](enlace-a-tu-repo)
+### 🛒 [Embudo de Conversión y Retención — MercadoLibre](https://github.com/ivanbayonaperez-cpu/MercadoLibre-Embudo-de-Conversi-n-y-Retenci-n-por-Cohorte-SQL-)
 Análisis de producto sobre el journey completo de compra, usando SQL avanzado.
 
 - **Ingeniería de consultas:** Construí el embudo multietapa completo (descubrimiento → conversión) usando CTEs en SQL para calcular tasas de conversión entre cada paso.
 - **Análisis de cohortes:** Medí retención D7/D14/D21/D28 por país, identificando las etapas de mayor fuga de usuarios y su variación geográfica.
 
-### 💹 [Rentabilidad de Mercado — Adventure Works](enlace-a-tu-repo)
+### 💹 [Rentabilidad de Mercado — Adventure Works](https://github.com/ivanbayonaperez-cpu/AdventureWorks-Rentabilidad-de-Mercado-y-Eficiencia-de-Marketing-SQL-)
 Análisis financiero con SQL sobre 6 mercados, separando eficiencia de producto de eficiencia de inversión en marketing.
 
 - **Hallazgo cuantificado:** El margen operativo es uniforme entre mercados (~43%), pero el ROI de marketing varía de 17% a 76% — aislando el problema real: eficiencia de inversión, no de producto.
 - **Análisis de escenario:** Modelé el efecto de un incremento del 50% en gasto de campañas sobre el ROI proyectado por mercado, para soportar la recomendación de reasignación de presupuesto.
 
-### 📱 [Segmentación de Clientes — Telecomunicaciones (ConnectaTel)](enlace-a-tu-repo)
+### 📱 [Segmentación de Clientes — Telecomunicaciones (ConnectaTel)](https://github.com/ivanbayonaperez-cpu/proyecto-connectatel)
 Análisis de comportamiento de uso real (llamadas, mensajes) para una empresa de telecomunicaciones en LATAM.
 
 - **Rigor de limpieza:** Apliqué verificación estadística MAR (Missing At Random) para justificar la conservación de nulos informativos, y detecté valores sentinel (`-999`) que distorsionaban las métricas antes de corregirlos.
@@ -90,7 +90,7 @@ Análisis de comportamiento de uso real (llamadas, mensajes) para una empresa de
 ## 💼 Conéctanos
 
 * **LinkedIn:** [linkedin.com/in/ivan-bayona-perez](https://www.linkedin.com/in/ivan-bayona-perez)
-* **Portafolio:** [Notion — Ivan Bayona Portafolio](https://ivanbayona.notion.site)
+* **Portafolio:** [ Ivan Bayona Portafolio](https://github.com/ivanbayonaperez-cpu)
 * **Correo electrónico:** ivan.bayonaperez@gmail.com
 
 💬 **Abierto a roles de Data Analyst (remoto/híbrido)** — conectemos si buscas convertir datos complejos en decisiones de negocio.
